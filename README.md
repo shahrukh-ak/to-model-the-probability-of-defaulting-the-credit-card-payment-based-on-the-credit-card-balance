@@ -1,0 +1,2 @@
+# to-model-the-probability-of-defaulting-the-credit-card-payment-based-on-the-credit-card-balance
+We are interested in predicting whether an individual will default on his or her credit card payment, on the basis of annual income and monthly credit card balance. The response default falls into one of two categories, Yes or No. Access the data set Default from the ISLR package and fit a simple logistic regression model to model the probability of defaulting the credit card payment based on the credit card balance.
