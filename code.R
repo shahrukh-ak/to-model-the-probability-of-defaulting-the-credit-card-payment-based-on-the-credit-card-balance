@@ -11,4 +11,19 @@ default student   balance    income
 6      No     Yes  919.5885  7491.559
 
 plot(balance, default)
-     
+model=glm(default~balance,family=binomial(logit))    
+model
+
+
+Call:  glm(formula = default ~ balance, family = binomial(logit))
+
+Coefficients:
+  (Intercept)      balance  
+-10.651331     0.005499  
+
+Degrees of Freedom: 9999 Total (i.e. Null);  9998 Residual
+Null Deviance:	    2921 
+Residual Deviance: 1596 	AIC: 1600
+
+
+
